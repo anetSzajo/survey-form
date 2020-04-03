@@ -1,5 +1,9 @@
 html {
     background: url("flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body{
@@ -60,7 +64,7 @@ select{
 }
 
 #gender-label{
-    margin-right: 8px;
+    margin-right: 20px;
 }
 
 input[type="radio"],
@@ -82,7 +86,8 @@ p {
 }
 
 #comments {
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     border-radius: 8px;
     margin-bottom: 2rem;
     margin-top: 5px;
