@@ -38,10 +38,21 @@ body{
     font-size: large;
 }
 
-
-
 input{
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-top: 5px;
+    width: 100%;
+}
+
+#number{
+    width: 20%;
+    width: 100%;
+}
+
+
+select{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
 }
