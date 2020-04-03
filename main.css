@@ -1,0 +1,31 @@
+html {
+    background: url("flowers.jpg");
+}
+
+
+#main {
+    background: rgb(142, 172, 142);
+    color: white;
+    border-radius: 8px;
+    padding: 1.3rem;
+    margin: 1.5rem;
+}
+
+input{
+    display: block;
+}
+
+.title{
+    text-align: center;
+}
+.title h1 {
+    margin-bottom: 0;
+}
+
+.title p{
+    font-style: italic;
+}
+
+#survey-form{
+    marign: 6px;
+}
