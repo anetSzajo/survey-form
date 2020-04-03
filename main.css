@@ -43,6 +43,7 @@ input{
     margin-bottom: 2rem;
     margin-top: 5px;
     width: 100%;
+    border-radius: 8px;
 }
 
 #number{
@@ -75,4 +76,20 @@ p {
 
 .checkbox-option{
     display: block;
+    height: 30px;
+}
+
+#comments {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-top: 5px;
+}
+
+#submit{
+    display: block;
+    border-radius: 8px;
+    background: rgb(85, 116, 85);
+    color: white;
+    width: 40%;
 }
