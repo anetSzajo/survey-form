@@ -56,3 +56,23 @@ select{
     margin-top: 5px;
     width: 100%;
 }
+
+#gender-label{
+    margin-right: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+p { 
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+
+.checkbox-option{
+    display: block;
+}
