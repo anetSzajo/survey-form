@@ -2,18 +2,12 @@ html {
     background: url("flowers.jpg");
 }
 
-
-form {
-    background: rgb(142, 172, 142);
-    color: white;
-    border-radius: 8px;
-    padding: 1.3rem;
-    margin: 1.5rem;
+body{
     height: 100vh;
 }
 
-input{
-    display: block;
+.main{
+    height: 100vh;
 }
 
 .title{
@@ -21,7 +15,9 @@ input{
     color: rgb(39, 82, 39);
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 3rem;
 }
+
 .title h1 {
     margin-bottom: 0;
 }
@@ -31,6 +27,21 @@ input{
     margin-top: 2px;
 }
 
-#survey-form{
-    padding-top: 2rem;
+#survey-form {
+    background: rgb(142, 172, 142);
+    color: white;
+    border-radius: 14px;
+    padding: 2.3rem;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    font-size: large;
+}
+
+
+
+input{
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 5px;
 }
