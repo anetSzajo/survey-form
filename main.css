@@ -3,12 +3,13 @@ html {
 }
 
 
-#main {
+form {
     background: rgb(142, 172, 142);
     color: white;
     border-radius: 8px;
     padding: 1.3rem;
     margin: 1.5rem;
+    height: 100vh;
 }
 
 input{
@@ -16,7 +17,10 @@ input{
 }
 
 .title{
+    background: white;
+    color: rgb(39, 82, 39);
     text-align: center;
+    opacity: 0.7;
 }
 .title h1 {
     margin-bottom: 0;
@@ -24,8 +28,9 @@ input{
 
 .title p{
     font-style: italic;
+    margin-top: 2px;
 }
 
 #survey-form{
-    marign: 6px;
+    padding-top: 2rem;
 }
