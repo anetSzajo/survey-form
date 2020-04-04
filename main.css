@@ -43,6 +43,7 @@ body{
 }
 
 input{
+    padding: 5px;
     display: block;
     margin-bottom: 2rem;
     margin-top: 5px;
