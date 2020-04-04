@@ -102,3 +102,10 @@ p {
     width: 100%;
     height: 45px;
 }
+
+@media (max-width: 40rem){
+    .gender-option{
+        display: flex;
+        flex-direction: column;
+    }
+}
